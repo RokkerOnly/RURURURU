@@ -10,5 +10,8 @@
         <h1>These are my PHP activities</h1>
         <p>And this is a paragraph</p>
     </div>
+    <footer>
+        <p>&copy; 2026 My Website</p>
+    </footer>
 </body>
 </html>
