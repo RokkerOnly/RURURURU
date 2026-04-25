@@ -10,12 +10,11 @@
         <h1>These are my PHP activities</h1>
         <p>And this is a paragraph</p>
     </div>
-    <div class="footer">
+    <div class="new-div">
+    <p>This is a new div.</p>
+        <div class="footer">
         <p>&copy; 2026 My Website</p>
     </div>
-    create new div
-<div class="new-div">
-    <p>This is a new div.</p>
 </div>
 </body>
 </html>
