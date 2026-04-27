@@ -4,7 +4,7 @@
   $email = "ongjosepaolo@gmail.com";
   $phone = "09551502544";
   $address = "Road 1, Baranggay Bagong Pag-Asa, Quezon City";
-  $profile = "I am a motivated IT student who enjoys building web applications using HTML, CSS, and PHP.";
+  $profile = "I am a IT student who enjoys building web applications using HTML, CSS, and PHP.";
 
   $skill1 = "C++";
   $skill2 = "Java";
@@ -31,7 +31,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title><?= $firstname ?> <?= $lastname ?> - Resume</title>
+  <title><?= $name?> - Resume</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
