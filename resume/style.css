@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.resume {
+  display: flex;
+  width: 900px;
+  min-height: 600px;
+  background: white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+  width: 30%;
+  background: #112120;
+  color: white;
+  padding: 30px 20px;
+}
+
+.sidebar img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;      
+  display: block;
+  margin: 0 auto 15px auto;  
+}
+
+.sidebar h1 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.sidebar .job-title {
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.sidebar h3 {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #aaa;
+  margin: 20px 0 8px 0;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+}
+
+.sidebar p {
+  font-size: 13px;
+  color: #ccc;
+  margin-bottom: 5px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  font-size: 13px;
+  color: #ccc;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  border-left: 2px solid #4a90d9;
+}
+
+.content {
+  width: 70%;
+  padding: 35px 30px;
+}
+
+.content h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #1a1a2e;
+  margin-bottom: 10px;
+}
+
+.content section {
+  margin-bottom: 5px;
+}
+
+.content p {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+
+.content strong {
+  color: #222;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 18px 0;
+}
