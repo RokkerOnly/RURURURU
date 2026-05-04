@@ -33,7 +33,7 @@
 </head>
 <body>
 
-<h2>Measure Conversion Chart/h2>
+<h2>Measure Conversion Chart</h2>
 
 <?php
 $cm_to_mm  = 1 * 10;
