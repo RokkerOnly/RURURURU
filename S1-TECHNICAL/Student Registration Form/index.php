@@ -7,7 +7,7 @@
     $dob = "5/13/2006";
     $gender = "Male";
 
-    $school = "FEU Tech";
+    $school = "FEU TECH";
     $course = "BSITWMA";
     $pob = "Quezon City";
     $lang = "Filipino & English";
@@ -29,40 +29,57 @@
         h1 {
             text-align: center;
             display: block; 
-            border-bottom : 2px;
-            pdding-bottom: 10px;
+            border-bottom: 2px solid #ffffff;
+            padding-bottom: 10px; 
+        }
+        table {
+            width: 700px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #00000000);
+            padding: 20px;
         }
         .card {
             border-radius: 10px;
         }
         ul {
-            list-style: none; padding: 2px;
+            list-style: none; 
+            padding: 0;
+            margin: 0;
         }
         li {
             padding: 10px;
-            border-bottom : 1px;
+            border-bottom: 1px solid #ffffff;
         }
     </style>
 </head>
 <body>
-    <h1>Student Form</h1>
-<ul>
-    <h2>Personal Information</h2>
-    <p> Name: <?= $name ?></p>
-    <p> Gender: <?= $gender ?></p>
-    <p> Age: <?= $age ?></p>
-    <p> Date of Birth: <?= $dob ?></p>
-    <p> Address: <?= $address ?></p>
-    <p> Email: <?= $email ?></p>
-    <p> Phone No.: <?= $phoneno ?></p>
-</ul>
-<ul>
-    <h2>Background Information</h2>
-    <p> School: <?= $school ?></p>
-    <p> Course: <?= $course ?></p>
-    <p> Place of Birth: <?= $pob ?></p>
-    <p> Languages: <?= $lang ?></p>
-</ul>
-
+    <table>
+        <tr>
+            <td>
+                <h1>Student Form</h1>
+                <h2>Personal Information</h2>
+                <ul>
+                    <li><span class="label">Name:</span> <?= $name ?></li>
+                    <li><span class="label">Gender:</span> <?= $gender ?></li>
+                    <li><span class="label">Age:</span> <?= $age ?></li>
+                    <li><span class="label">Date of Birth:</span> <?= $dob ?></li>
+                    <li><span class="label">Address:</span> <?= $address ?></li>
+                    <li><span class="label">Email:</span> <?= $email ?></li>
+                    <li><span class="label">Phone No.:</span> <?= $phoneno ?></li>
+                </ul>
+            </td>
+            <td>
+                <h2>Background Information</h2>
+                <ul>
+                    <li><span class="label">School:</span> <?= $school ?></li>
+                    <li><span class="label">Course:</span> <?= $course ?></li>
+                    <li><span class="label">Place of Birth:</span> <?= $pob ?></li>
+                    <li><span class="label">Languages:</span> <?= $lang ?></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
