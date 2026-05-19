@@ -1,0 +1,22 @@
+body { 
+    font-family: Helvetica; 
+    padding: 30px; 
+}
+
+table { 
+    width: 80%; 
+    border-collapse: collapse; 
+    margin: auto; 
+}
+
+th, td { 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+td img { 
+    width: 80px; 
+    height: 80px; 
+    object-fit: cover; 
+}
