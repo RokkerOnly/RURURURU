@@ -1,0 +1,42 @@
+body {
+    font-family: Helvetica;
+    background-color: floralwhite;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+nav {
+    margin-bottom: auto;
+}
+
+nav a {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: blue;
+}
+
+.container {
+    background-color: beige;
+    padding: 0;
+    border-radius: 0;
+    max-width: fit-content;
+    margin: auto;
+    border: 1px;
+}
+
+img { 
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    object-fit: cover;
+    margin-bottom: auto;
+}

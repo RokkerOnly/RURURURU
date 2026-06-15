@@ -1,0 +1,2 @@
+<h2>Career Objective</h2>
+<p>To obtain a position in a progressive organization where I can apply my knowledge in web development and information technology, contribute to the growth of the company, and continuously improve my skills as a professional.</p>
