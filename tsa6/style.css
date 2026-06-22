@@ -1,0 +1,61 @@
+body {
+  background-color: #c2a3a3;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  justify-content: center;
+  box-sizing: border-box;
+  min-height: 80vh;
+}
+
+table {
+  background-color: #ffffff;
+  padding: 15px;
+  width: 320px;
+}
+
+table tr td {
+  font-size: 13px;
+  color: #333;
+  padding: 2px 5px;
+}
+
+input[type="text"] {
+  width: 250px;
+  padding: 3px 5px;
+  border: 1px solid #aaa;
+  font-size: 13px;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 10px auto 0 auto;
+  padding: 5px 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #aaa;
+  cursor: pointer;
+}
+
+p {
+  color: white;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.dog-box {
+  background-color: #ffffff;
+  border: 1px solid #aaa;
+  padding: 15px 20px;
+  width: 360px;
+  margin-bottom: 3px;
+  font-size: 16px;
+  color: #222;
+  line-height: 1.6;
+}
+
+.dog-box b {
+  display: block;
+  margin-bottom: 3px;
+}
